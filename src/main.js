@@ -5,10 +5,14 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import VueDirectiveImagePreviewer from 'vue-directive-image-previewer'
+import 'vue-directive-image-previewer/dist/assets/style.css'
 
 Vue.config.productionTip = false
 
 Vue.use(ElementUI);
+Vue.use(VueDirectiveImagePreviewer)
+
 
 /* eslint-disable no-new */
 new Vue({

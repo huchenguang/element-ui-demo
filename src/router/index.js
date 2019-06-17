@@ -15,6 +15,16 @@ export default new Router({
       path:'/table',
       name:'table',
       component:()=> import('@/pages/table')
+    },
+    {
+      path:'/test',
+      name:'test',
+      component:()=> import('@/pages/test')
+    },
+    {
+      path:'/form',
+      name:'form',
+      component:()=> import('@/pages/form')
     }
   ]
 })
