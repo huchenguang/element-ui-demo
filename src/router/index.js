@@ -25,6 +25,21 @@ export default new Router({
       path:'/form',
       name:'form',
       component:()=> import('@/pages/form')
+    },
+    {
+      path:'/tableList',
+      name:'tableList',
+      component:()=> import('@/pages/tableList')
+    },
+    {
+      path:'/tabs',
+      name:'tabs',
+      component:()=> import('@/pages/tabs')
+    },
+    {
+      path:'/breadcrumb',
+      name:'breadcrumb',
+      component:()=> import('@/pages/breadcrumb')
     }
   ]
 })
