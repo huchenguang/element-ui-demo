@@ -187,7 +187,7 @@ export default {
         ]
       }
     }
-  },
+  },  
   methods: {
     handlePictureCardPreview(file) {
         this.dialogImageUrl = file.url;
